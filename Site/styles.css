@@ -1,0 +1,36 @@
+body, html {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;
+    justify-content: center;
+    align-items: center;
+}
+
+.Tudo {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: bisque;
+    min-height: 360px;
+    height: 40%;
+    max-width: 400px;
+    width: 60%; /* Alterado para ocupar toda a largura da viewport */
+    border: 2px solid black; /* Adicionado estilo de borda */
+    box-sizing: border-box; /* Inclui largura da borda e preenchimento no cálculo total da largura */
+    border-radius: 10px;
+}
+.ContainerNormal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%; /* Define a largura da metade do container */
+}
+button{
+    margin: auto;
+    height: 50px; /* Define a altura mínima para os botões */
+    width: 100%; /* Os botões ocupam toda a largura do container */
+    margin-bottom: 10px;
+}
