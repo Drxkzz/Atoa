@@ -4,7 +4,8 @@ body, html {
     padding: 0;
     height: 100%;
     width: 100%;
-    background-color: aquamarine;
+    background: linear-gradient(to bottom, #7F9183, #586F6B);
+    background-color: #586F6B;
     justify-content: center;
     align-items: center;
 }
@@ -13,13 +14,13 @@ body, html {
     justify-content: center;
     align-items: center;
     display: flex;
-    background-color: bisque;
+    background: linear-gradient(to bottom, rgba(158, 160, 165, 0.836), rgba(109, 213, 250, 0.8));
     min-height: 360px;
     height: 40%;
     max-width: 400px;
-    width: 60%; /* Alterado para ocupar toda a largura da viewport */
-    border: 2px solid black; /* Adicionado estilo de borda */
-    box-sizing: border-box; /* Inclui largura da borda e preenchimento no cálculo total da largura */
+    width: 60%;
+    border: 2px solid black;
+    box-sizing: border-box;
     border-radius: 10px;
 }
 .ContainerNormal{
@@ -33,4 +34,18 @@ button{
     height: 50px; /* Define a altura mínima para os botões */
     width: 100%; /* Os botões ocupam toda a largura do container */
     margin-bottom: 10px;
+    border-radius: 8px;
+    border: 3px;
+    border-color: black;   
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
 }
+button:hover{
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+
+
+
+
+
