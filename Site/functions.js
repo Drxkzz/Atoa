@@ -1,3 +1,3 @@
-function mudarPagina(nomepagina){
-    window.location.href = `./${nomepagina}.html`
+function mudarPagina(pagina) {
+    window.location.href = pagina;
 }
