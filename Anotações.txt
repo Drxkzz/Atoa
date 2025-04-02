@@ -1,0 +1,23 @@
+Google Arts&Culture - Sistema do google maps com fotos e algumas poucas informações https://artsandculture.google.com/
+
+Voma - museu 100 virtual semelhante ao google maps - https://visit.voma.space/
+
+
+!! Thingiverse - Site usado para compartilhamento de modelos 3d para impressão virtual - gostei do sistema 3d utilizado para observar melhor (futuro estudo para aplicar no site)
+
+------
+
+Armazenamento 3d - Formatos[(Stl - Mosaico triangular), (GLB - Versão binária recomendada para uso web), (Obj - Tipo padronizado de arquivo), (VRML/X3D - Modelagem de realizade virtual com uso de malhas poligonais)
+
+Polycam - Aplicativo para criar imagens 3d (Qualidade meio duvidosa ao que parece
+
+------
+
+Three.js r154
+
+- https://threejs.org/examples/#webgl_animation_keyframes
+
+
+
+- https://3dmodels.org/pt/3d-models/star-wars-emperor-throne/#360view (Semelhante ao site da honda)
+--Pessoalmente não acredito que será a melhor interatividade ao usuário para observar pedras
